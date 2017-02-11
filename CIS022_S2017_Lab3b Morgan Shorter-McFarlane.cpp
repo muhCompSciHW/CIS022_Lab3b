@@ -9,7 +9,6 @@
 
 #include "stdafx.h"
 #include <iostream>				// standard input/output library
-#include <iomanip>				// output formatting library
 #include <string>				// includes the definition for the string data type
 #include <fstream>				// file input/output library
 
@@ -20,9 +19,9 @@ int main()
 {
 	ifstream inFile;			// input file handle
 	string szSourcePath =		// path of input file
-		"c:\\Users\\WORK\\Desktop\\CIS022_Lab3b_data.txt";
+		"C:\\Users\\WORK\\Desktop\\CIS022_S2017_Lab3b_data.txt";
 	string crn;			// declare 9 string variables to store data from the input file
-	scring cname;
+	string cname;
 	string cnum;
 	string dept;
 	string days;
